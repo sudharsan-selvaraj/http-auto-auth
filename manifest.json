@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "HTTP auto auth",
+  "description": "Extension to automatically fill Basic HTTP credentials in authentication popup using query params",
+  "short_name": "AutoAuth",
+  "author": "Sudharsan Selvaraj <sudharsanselvaraj.c@gmail.com>",
+  "background": {
+    "persistent": true,
+    "scripts": [ "main.js" ]
+  },
+  "browser_action" : {
+    "default_icon": "icon.png"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "homepage_url": "https://github.com/sudharsan-selvaraj/http-auto-auth",
+  "offline_enabled": true,
+  "permissions": [ "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ]
+}
