@@ -1,9 +1,9 @@
 # http-auto-auth
 Browser extension to automatically fill the credentials in basic HTTP authentication popup.
 
-Atleast once in a career time, every web automation engineer might have came accross a single question "How to automate authentication popup in browser?". If you are one among them, then you are at the right place. 
+At least once in a career time, every web automation engineer might have came across a single question "How to automate authentication popup in browser?". If you are one among them, then you are at the right place. 
 
-To solve the everlasting problem, i developed a browser extension which can automically fill the values in authentication popup from the credentials provided in the URL params.
+To solve the ever lasting problem, i developed a browser extension which can automtically fill the values in authentication popup from the credentials provided in the URL params.
 
 # How to use?
 
@@ -33,3 +33,5 @@ var paramsRegexPattern = new RegExp(/auto_auth_ext_credentials=(?<username>.+?):
 ```
 var paramsRegexPattern = new RegExp(/my_custom_param_name=(?<username>.+?):(?<password>.+?)$/g);
 ```
+
+**Video tutorial -** https://youtu.be/S_ukUIcKj_E
